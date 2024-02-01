@@ -1,0 +1,32 @@
+!define PrimaryNavyBlue 00204d
+!define SecondaryBlue 73acdd 
+!define SecondaryLightBlue d4e5f7
+!define DeepGrey 737373
+!define SecondaryGrey 969696
+!define SecondaryLightGrey cdcdcd
+
+skinparam ParticipantBackgroundColor<<Internal>> #PrimaryNavyBlue
+skinparam ParticipantBackgroundColor<<3rdParty>> #DeepGrey
+skinparam ActorBackgroundColor<<Internal>> #PrimaryNavyBlue
+skinparam ActorBackgroundColor<<3rdParty>> #DeepGrey
+
+hide footbox
+hide stereotype
+
+skinparam responseMessageBelowArrow true
+skinparam participantFontColor automatic
+
+skinparam BoxPadding 20
+skinparam SequenceGroupBodyBackgroundColor #FFFFFF90
+skinparam ComponentBackgroundColor #PrimaryNavyBlue
+skinparam ComponentFontColor White
+skinparam ArrowColor #PrimaryNavyBlue
+
+skinparam SequenceMessage {
+  Padding 5
+  Margin 5
+  BackgroundColor White (or gradient, i.e. the normal supported color options)
+}
+
+skinparam componentStyle rectangle
+skinparam BackgroundColor White
